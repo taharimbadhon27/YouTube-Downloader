@@ -13,7 +13,7 @@ def get_api_key():
             with open(API_KEY_FILE, 'r') as f:
                 return f.read().strip()
         else:
-            api_key = "AIzaSyBnyZmnPQpL5_kZUFiR14a9wP5FgVyS8cQ"  # Your provided key
+            api_key = "MY API KEY HERE"  # Your provided key
             with open(API_KEY_FILE, 'w') as f:
                 f.write(api_key)
             return api_key
